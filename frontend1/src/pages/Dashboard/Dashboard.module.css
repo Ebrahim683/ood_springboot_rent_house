@@ -1,0 +1,49 @@
+.wrapper {
+  min-height: 90vh;
+}
+.ownerWrapper {
+  background-color: wheat;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashButton {
+  background-color: black;
+  margin: 2px;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 0px;
+  transition: all 0.3s ease-in;
+}
+.dashButton:hover {
+  border-radius: 10px;
+  background-color: #000;
+  border: 5px solid rgb(116, 214, 25);
+}
+.login_content{
+  background-color: wheat;
+}
+
+.card_wrapper,
+.loginForm {
+  min-width: 500px;
+  background-color: #2C2F3F;
+  
+}
+.inputField {
+  width: 100%;
+  padding: 5px 2px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  margin: 10px 0px;
+  border-radius: 5px;
+  /* background-color: rgba(255, 255, 255, 0.349); */
+  border: none;
+}
+
+.submitBtn {
+  background-color: rgb(255, 166, 0);
+  color: black;
+  
+}

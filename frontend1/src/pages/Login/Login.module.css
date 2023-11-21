@@ -1,0 +1,44 @@
+.login_wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-image: url("../../assets/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login_content {
+  max-width: 1000px;
+  /* padding: 50px; */
+
+  background: rgba(199, 199, 199, 0.116);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(224, 224, 224, 0.397);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+}
+
+.loginForm {
+  min-width: 500px;
+  color: white;
+}
+
+.inputField {
+  width: 100%;
+  padding: 5px 2px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  margin: 10px 0px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.349);
+  border: none;
+}
+.submitBtn {
+  background-color: wheat;
+  color: black;
+  
+}

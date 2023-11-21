@@ -1,0 +1,40 @@
+
+.hero_content_wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-image: url("../../assets/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero_content {
+  max-width: 1000px;
+  padding: 50px;
+
+  background: rgba(199, 199, 199, 0.116);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(224, 224, 224, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+}
+.heroText {
+  color: wheat;
+}
+.hero_details {
+  color: rgb(255, 255, 255);
+}
+.recent_post_wrapper {
+  min-height: 90vh;
+  padding: 20px 0px;
+}
+.recent_title {
+  font-family: "Poppins";
+}
+.btn_1,.btn_2{
+    width: 150px;
+}
